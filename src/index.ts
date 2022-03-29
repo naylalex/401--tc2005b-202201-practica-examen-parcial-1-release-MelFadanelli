@@ -30,6 +30,7 @@ const btn = document.querySelector('button');
 if (btn) {
   console.log('attaching listener');
   //TODO: invoca la función addEventListener de btn con parámetros 'click' y buttonSubmitClick
+  btn.addEventListener('click', buttonSubmitClick);
 }
 
 
