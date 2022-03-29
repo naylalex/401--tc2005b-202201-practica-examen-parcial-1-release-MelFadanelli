@@ -19,9 +19,11 @@ function buttonSubmitClick() {
         if (bPalindrome) {
             divResult.innerText = 'The word is palindrome!'
             //TODO: Implementa la asignación del atributo className con valor 'palindrome'
+            divResult.className = "palindrome";
         } else {
             //TODO: Asigna a la propiedad innerText de divResult el valor 'The word is not palindrome, sorry.'
             divResult.className = "notPalindrome";
+            divResult.innerText = 'The word is not palindrome, sorry.'
         }
     }
 }
